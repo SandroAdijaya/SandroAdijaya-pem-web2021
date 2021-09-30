@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULIR PPDB JALUR ZONASI 2020</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <h1 style="color:rgb(27, 20, 20)"><center> FORMULIR PPDB JALUR ZONASI 2020 </center></h1>
+        <table>
+            <br>
+            <h2 style="color: black; font-size: medium;">Info Pendaftaran</h2>
+                <form method="POST" action="proses.php" name="fpost"> 
+                    <label for="fNISN">NISN : </label><br>
+                    <input type="number" id="fNISN" name="fNISN"><br>
+                    <label for="faskol">Asal Sekolah : </label><br>
+                    <input type="text" id="faskol" name="faskol"><br>
+                    <label for="flulus">Tahun Lulus : </label><br>
+                    <input type="number" id="flulus" name="flulus"><br>
+                </form>
+                <h2 style="color: black; font-size: medium;">Data Calon Peserta</h2>
+                <form>
+                    <label for="fnama">Nama Lengkap : </label><br>
+                    <input type="text" id="fnama" name="fnama"><br>
+                    <label for="fNIK">NIK : </label><br>
+                    <input type="number" id="fNIK" name="fNIK"><br>
+                    <label for="ftempat">Tempat Lahir : </label><br>
+                    <input type="text" id="ftempat" name="ftempat"><br>
+                    <label for="ftanggal">Tanggal Lahir : </label><br>
+                    <input type="date" id="ftanggal" name="ftanggal"><br>
+                    <label for="fjk">Jenis Kelamin : </label><br>
+                    <input type="radio" id="fjk" name="fjk"> Laki-Laki
+                    <input type="radio" id="fjk" name="fjk"> Perempuan<br>
+                    Alamat : <br>
+                    <textarea name="Alamat" cols="40" rows="3"></textarea><br>
+                    <label for="fdes">Des/Kel : </label><br>
+                    <input type="text" id="fdes" name="fdes"><br>
+                    <label for="fkec">Kecamatan : </label><br>
+                    <input type="text" id="fkec" name="fkec"><br>
+                    <label for="fkab">Kabupaten : </label><br>
+                    <input type="text" id="fkab" name="fkab"><br>
+                    <label for="fprov">Provinsi : </label><br>
+                    <input type="text" id="fprov" name="fprov"><br>
+                    <label for="femail">Email Aktif : </label><br>
+                    <input type="text" id="femail" name="femail"><br>
+                </form>
+                <h2 style="color: black; font-size: medium;">Data Orang Tua</h2>
+                <form>
+                    <label for="fkk">Nomor Kartu Keluarga : </label><br>
+                    <input type="number" id="fkk" name="fkk"><br>
+                    <label for="fnamaayah">Nama Ayah Kandung : </label><br>
+                    <input type="text" id="fnamaayah" name="fnamaayah"><br>
+                    <br>
+                    <label>Agama : </label>
+                    <select name="agama">
+                        <option value="pilih">-</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                        <option value="Konghucu">Konghucu</option>
+                    </select><br>
+                    <br>
+                    <label for="fkerja">Pekerjaan : </label><br>
+                    <input type="text" id="fkerja" name="fkerja"><br>
+                    <label for="fnamaibu">Nama Ibu Kandung : </label><br>
+                    <input type="text" id="fnamaibu" name="fnamaibu"><br>
+                    <br>
+                    <label>Agama : </label>
+                    <select name="agama">
+                        <option value="pilih">-</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                        <option value="Konghucu">Konghucu</option>
+                    </select><br>
+                    <br>
+                    <label for="fkerja">Pekerjaan : </label><br>
+                    <input type="text" id="fkerja" name="fkerja"><br>
+                    Alamat Orang Tua : <br>
+                    <textarea name="Alamatortu" cols="40" rows="3"></textarea><br>
+                    <label for="fdesa">Des/Kel : </label><br>
+                    <input type="text" id="fdesa" name="fdesa"><br>
+                    <label for="fkeca">Kecamatan : </label><br>
+                    <input type="text" id="fkeca" name="fkeca"><br>
+                    <label for="fkaba">Kabupaten : </label><br>
+                    <input type="text" id="fkab" name="fkaba"><br>
+                    <label for="fprova">Provinsi : </label><br>
+                    <input type="text" id="fprova" name="fprova"><br>
+                    <br>
+                    <tr>
+                        <td>
+                            <input name="submit" type="submit" value="Submit">
+                            <input name="reset" type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </form>
+            </form>
+        </table>
+    </div>
+</body>
+</html>
