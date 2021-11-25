@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dialog Prompt</title>
+    </head>
+    <body>
+        <p>Klik disini untuk mencoba dialog Prompt onClick</p>
+        <button onclick="promptOnClick()">Try it</button>
+
+        <script>
+        var nama = prompt("Siapa nama kamu?", "");
+        document.write("<p>Hello "+ nama +"</p>");
+
+        function promptOnClick() {
+            var aktivitas = prompt("Sedang apakah kamu sekarang ?", "Belajar Javascript");
+            if (aktivitas != null) {
+                document.getElementById("demo").innerHTML =
+                "Kamu sekarang sedang " + aktivitas;
+            }
+        }
+        </script>
+
+        <p id="demo"></p>
+
+    </body>
+</html>
